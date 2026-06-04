@@ -1,7 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 
-const supabaseUrl = (import.meta as unknown as { env: Record<string, string> }).env.VITE_SUPABASE_URL ?? "https://rawkjauphysykxjjzklr.supabase.co";
-const supabaseKey = (import.meta as unknown as { env: Record<string, string> }).env.VITE_SUPABASE_PUBLISHABLE_KEY ?? "sb_publishable_Ol_T__BBSdTSWQz5zG7pCw_7eK7YILO";
+const supabaseUrl = (import.meta as unknown as { env: Record<string, string> }).env.VITE_SUPABASE_URL ?? "https://rqtwnqumpqenmnaluihx.supabase.co";
+const supabaseKey = (import.meta as unknown as { env: Record<string, string> }).env.VITE_SUPABASE_PUBLISHABLE_KEY ?? "sb_publishable__hN62gke1zpbYFs1ru7Stw_dbpZsApC";
 
 export const supabase = createClient(supabaseUrl, supabaseKey);
 
